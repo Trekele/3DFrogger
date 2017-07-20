@@ -44,8 +44,7 @@ public class TitleScreen : MonoBehaviour {
 
         }
 
-       
-
         SceneManager.LoadScene("3DFrogger");
     }
+
 }
