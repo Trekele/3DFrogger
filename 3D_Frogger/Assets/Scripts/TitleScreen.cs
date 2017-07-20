@@ -26,19 +26,19 @@ public class TitleScreen : MonoBehaviour {
         { 
             case "0":
                 Score.Lifes = 3;
-                Score.time = 30f;
+                Score.time = 60f;
                 Score.rememberTime = Score.time;
                 break;
 
             case "1":
                 Score.Lifes = 2;
-                Score.time = 20f;
+                Score.time = 40f;
                 Score.rememberTime = Score.time;
                 break;
 
             case "2":
                 Score.Lifes = 1;
-                Score.time = 10f;
+                Score.time = 20f;
                 Score.rememberTime = Score.time;
                 break;
 
