@@ -66,12 +66,7 @@ public class Frog : MonoBehaviour
 
     public void hit()
     {             
-            Score.Lifes--;
-            //if (Score.Lifes == 0)
-            //{
-            //    Score.CurrentScore = 0;
-            //    Score.Lifes = 3;
-            //}
+            Score.Lifes--;           
             StartCoroutine(death());       
         
     }
@@ -83,10 +78,11 @@ public class Frog : MonoBehaviour
         audioSource.clip = audioClips[1];
         audioSource.Play();
         Score.CurrentScore = 0;
+        Score.time = Score.rememberTime;
         yield return new WaitForSeconds(.4f);
-        if (Score.Lifes == 0)
+        if (Score.Lifes <= 0)
         {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("TitleScreen");
         }
         else
         {

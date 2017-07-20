@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,9 +7,11 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour {
 
+    public static string difficulty = "0";
     public static int CurrentScore = 0;
     public static int Lifes = 3;
     public static float time = 30f;
+    public static float rememberTime = 0f;
     public Text textScore;
     public Text lifes;
     public Slider timer;
@@ -30,17 +33,17 @@ public class Score : MonoBehaviour {
             timer.value = time;
         }
 
-        if(time<=0)
+        if(Convert.ToInt32(time)==0)
         {
             Lifes--;
             if (Lifes == 0)
             {
-            //    Lifes = 3;
-            //    CurrentScore = 0;
-                SceneManager.LoadScene("GameOver");
+            
+                SceneManager.LoadScene("TitleScreen");
             }
             else
             {
+                Score.time = Score.rememberTime;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
            

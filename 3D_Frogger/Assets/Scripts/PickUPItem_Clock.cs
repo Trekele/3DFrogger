@@ -8,7 +8,7 @@ public class PickUPItem_Clock : MonoBehaviour {
     {
         if (other.tag == "frog")
         {
-            Score.time += 10f;
+            Score.time += 5f;
             Destroy(this.gameObject);
 
         }
