@@ -95,7 +95,6 @@
     <Compile Include="Assets\Scripts\MoveLeftRight.cs" />
     <Compile Include="Assets\Scripts\MoveObject.cs" />
     <Compile Include="Assets\Scripts\MoveUpDown.cs" />
-    <Compile Include="Assets\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\Scripts\PickUPItem_Clock.cs" />
     <Compile Include="Assets\Scripts\PickUpItem_Star.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
