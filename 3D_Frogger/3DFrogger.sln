@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DFrogger.Plugins", "3DFrogger.Plugins.csproj", "{0D2B4E99-C128-E52F-33A6-AEBC84179F9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DFrogger", "3DFrogger.csproj", "{0A8546EE-B5EC-F632-D62C-95A169DD2416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DFrogger.Editor.Plugins", "3DFrogger.Editor.Plugins.csproj", "{11BB9194-E30B-9464-3A1D-82A19E2D99CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D2B4E99-C128-E52F-33A6-AEBC84179F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2B4E99-C128-E52F-33A6-AEBC84179F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2B4E99-C128-E52F-33A6-AEBC84179F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2B4E99-C128-E52F-33A6-AEBC84179F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8546EE-B5EC-F632-D62C-95A169DD2416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8546EE-B5EC-F632-D62C-95A169DD2416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8546EE-B5EC-F632-D62C-95A169DD2416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8546EE-B5EC-F632-D62C-95A169DD2416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BB9194-E30B-9464-3A1D-82A19E2D99CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BB9194-E30B-9464-3A1D-82A19E2D99CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BB9194-E30B-9464-3A1D-82A19E2D99CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BB9194-E30B-9464-3A1D-82A19E2D99CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
